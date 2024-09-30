@@ -1,0 +1,12 @@
+Question : List out my all orders?
+Answer:
+SELECT lo_customer_order.order_no,lo_customer_order.amount,lo_customer_order.order_type,lo_customer_order.order_address,lo_customer_order.billing_address,lo_customer_order.order_status,lo_customer_order.created_on, lo_customer_order.order_id , lo_store_detail.store_name , lo_store_detail.phone_no ,lo_master_customers.name,lo_master_customers.phone FROM lo_customer_order LEFT OUTER JOIN lo_store_detail ON lo_store_detail.store_id = lo_customer_order.seller_id LEFT OUTER JOIN lo_master_customers ON lo_master_customers.user_id = lo_customer_order.user_id WHERE `lo_customer_order`.`user_id`= number;
+
+
+Question: What is my last order?
+Answer: 
+SELECT lo_customer_order.order_no,lo_customer_order.amount,lo_customer_order.order_type,lo_customer_order.order_address,lo_customer_order.billing_address,lo_customer_order.order_status,lo_customer_order.created_on, lo_customer_order.order_id , lo_store_detail.store_name , lo_store_detail.phone_no ,lo_master_customers.name,lo_master_customers.phone FROM lo_customer_order LEFT OUTER JOIN lo_store_detail ON lo_store_detail.store_id = lo_customer_order.seller_id LEFT OUTER JOIN lo_master_customers ON lo_master_customers.user_id = lo_customer_order.user_id 
+ORDER BY 
+lo_customer_order.created_on DESC
+LIMIT 1;
+

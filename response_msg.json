@@ -1,0 +1,23 @@
+{
+    "search_questions" : "Results Found!",
+    "questions_created" : "Question added successfully!",
+    "something_went_wrong"  : "Something went wrong!",
+    "no_record_found" : "No Record Found",
+    "list_questions" : "List of all Questions!",
+    "updtaed_questions" : "Question updated successfully!",
+    "deleted_questions" : "Question deleted successfully!",
+    "valid_query" : "Query Validated Successfully!",
+    "question_found" : "Questions found successfully!",
+    "invalid_query" : "Invalid Query!",
+    "no_queries_found" : "No query found for the question",
+    "store_duplicate_questions" : "Duplicate question not allowed in Store!",
+    "more_than_one_duplicate_platform" :  "More than one duplicate question exists for platform!",
+    "platform_duplicate_questions" : "Duplicate questions in platform are not allowed!",
+    "more_than_one_duplicate_store" : "More than one duplicate question exists for store!",
+    "working_on_llm" : " Unable to retrieve any information from your question. Apologies for the inconvenience. We will update our library and get back to you soon. ",
+    "invalid_question" : "Please ask us specific question for which you need response.",
+    "save_question": "Please enter a valid question",
+    "duplicate_question" : "Duplicate Question Created Successfully!",
+    "invalid_id" : "Invalid Id",
+    "database_error" : "Database Error: Something Went Wrong!"
+}
